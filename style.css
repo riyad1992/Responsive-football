@@ -1,0 +1,426 @@
+ /* fonts  */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common style or utilitis  */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container{
+    width: 1050px;
+    padding: 30px;
+    margin-top: 70px;
+}
+.btn{
+    Width: 168px;
+    Height: 44px;
+    Padding:10px, 24px, 10px, 24px;
+    background-color: #E02C6D;
+    border: none;
+    cursor: pointer;
+}
+.btn a{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+.btn:hover{
+    background-color: #e283a6;
+    color: #500c25;
+}
+.btn:hover a{
+    color: #500c25;
+}
+
+ /* header style  */
+header {
+    background-color: #2D25A0;
+}
+header nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    margin-left: 156px;
+    margin-top: 24px;
+}
+nav ul li {
+    margin: 18px;
+}
+nav ul li:hover a {
+    color: #6C6C6C;
+}
+nav ul li a{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+nav .main-logo button{
+    width: 123px;
+    height: 44px;
+    margin-top: 39px;
+    margin-left: 450px;
+}
+
+.header-details{
+    display: flex;
+}
+.hedear-details-content{
+    margin-top: 103px;
+    margin-left: 156px;
+}
+.hedear-details-content h1{
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.header-img img{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 102px;
+    margin-top: 49px;
+    margin-bottom: 86px;
+}
+.hedear-details-content button{
+    margin-top: 27px;
+}
+
+/* style for player details section  */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+.top-players {
+    height: auto;
+    /* height: 474px; */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-banner img{
+    width: 100%;
+    height: auto;
+    /* height: 256px; */
+}
+.player-details .player-name {
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 16px;
+}
+.player-details .player-info {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+
+ /* style for highlights section  */
+.highlights {
+    display: flex;
+    margin-top: 100px;
+}
+.highlights-header {
+    width: 469px;
+    height: 120px;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+    margin-top: 50px;
+}
+.highlights-info {
+    width: 404px;
+    height: 113px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-top: 8px;
+}
+.highlights-details button{
+    margin-top: 24px;
+}
+.highlights-banner img{
+    width: 550px;
+    margin-left: 66px;
+}
+
+
+/* news section style  */
+.section-title{
+    padding: 20px;
+    font-size: 28px;
+}
+.newses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.news {
+    display: flex;
+}
+
+.news .neymar img{
+    width: 177px;
+    height: 150px;
+}
+.news-info {
+    margin-left: 16px;
+}
+.news-title {
+    font-size: 20px;
+}
+.news-info p {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+
+/* comment section style  */
+.section-comments-follow{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+}
+.section-comments-follow h2{
+    font-size: 28px;
+    padding: 20px;
+}
+.comments-input{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 0.1px solid gray;
+    border-bottom: none;
+    border-radius: 5px;
+}
+.comments-input input{
+    margin-left: 20px;
+    border: none;
+    outline: none;
+}
+.comment {
+    display: flex;
+    border-left: 0.1px solid gray;
+    border-right: 0.01px solid gray;
+    padding: 20px;
+    border-radius: 5px;
+}
+.border-bottom{
+    border-bottom: 0.1px solid gray;
+}
+.comment img{
+    border-radius: 10px;
+}
+.name-comment{
+    padding: 10px 0 0 20px;
+}
+.reply-like{
+    display: flex;
+    padding: 5px;
+}
+.reply-like p{
+    padding: 0 8px;
+}
+.follow h3{
+    font-size: 22px;
+    border-bottom: 0.1px solid gray;
+    padding: 40px;
+}
+.follow i{
+    margin-left: 5%;
+}
+
+
+/* style for footer section  */
+.footer-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.footer-banner img{
+    width: 483.87px;
+    height: 110px;
+}
+.media-icon a{
+    font-size: 20px;
+    color: #969BAB;
+    margin: 0 14px;
+}
+.footer-details p{
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+/* responsive for mobile  */
+@media only screen and (max-width: 688px){
+    nav ul{
+        display: none;
+    }
+    nav .main-logo button{
+        width: 89.98px;
+        height: 32.88px;
+        margin-top: 39px;
+        margin-left: 80%;
+    }
+    .header-details{
+        display: block;
+    }
+    .hedear-details-content{
+        margin-top: 46px;
+        margin-left: 16px;
+    }
+    .hedear-details-content h1{
+        width: 278px;
+        height: 138px;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .header-img img{
+        width: 80%;
+        height: auto;
+        margin-left: 15px;
+        margin-top: 49px;
+        margin-bottom: 61.68px;
+    }
+    .container{
+        width: 100%;
+    }
+    .players, .newses, .section-comments-follow {
+        grid-template-columns: repeat(1, 1fr);;
+    }
+    .highlights {
+        display: block;
+        margin-top: 0px;
+    }
+    .highlights-header {
+        width: 292px;
+        height: 80px;
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 0px;
+    }
+    .highlights-info {
+        width: 100%;
+        height: 143px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #6C6C6C;
+        margin-top: 8px;
+    }
+    .highlights-banner img{
+        width: 100%;
+        height: auto;
+        margin-left: 6px;
+        margin-top: 29px;
+    }
+    .footer-banner img{
+        width: 276px;
+        height: 63px;
+    }
+    .news{
+        flex-direction: column;
+    }
+}
+
+/* responsive for tablet  */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .players, .newses, .section-comments-follow {
+        grid-template-columns: repeat(2, 1fr);;
+    }
+    nav ul{
+        margin-left: 56px;
+        margin-top: 24px;
+    }
+    nav ul li {
+        margin: 12px;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    nav .main-logo button{
+        margin-top: 39px;
+        margin-left: 100px;
+    }
+    .hedear-details-content{
+        margin-top: 100px;
+        margin-left: 56px;
+    }
+    .hedear-details-content h1{
+        width: 300px;
+        height: 120px;
+        font-size: 36px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+    .header-img img{
+        width: 80%;
+        height: 280px;
+        margin-left: 50px;
+        margin-top: 49px;
+        margin-bottom: 86px;
+    }
+    .highlights {
+        margin-top: 0px;
+    }
+    .highlights-header {
+        width: 100%;
+        height: 75px;
+        font-size: 30px;
+        line-height: 48px;
+        color: #0A0826;
+        margin-top: 15px;
+    }
+    .highlights-info {
+        width: 100%;
+        height: 143px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #6C6C6C;
+        margin-top: 20px;
+    }
+
+    .highlights-banner img{
+        width: 100%;
+        height: auto;
+        margin-left: 6px;
+        margin-top: 29px;
+    }
+    .news .neymar img{
+        width: 120px;
+        height: 80px;
+    }
+}
+@media only screen and (min-width: 850px) {
+    nav .main-logo button{
+        margin-top: 39px;
+        margin-left: 200px;
+    }
+}
+@media only screen and (min-width: 950px) {
+    nav .main-logo button{
+        margin-top: 39px;
+        margin-left: 300px;
+    }
+}
